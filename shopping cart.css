@@ -1,0 +1,145 @@
+.had{
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    float: left;
+    display: block;
+    padding: 10px;
+   
+  }
+li a:link{
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(43, 226, 202);
+}
+.had img{
+    width: 1350px;
+    height: 200px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+button{
+    background-color:gray;
+}
+.container a{
+    color: gray;
+}
+.container a:link{
+    text-decoration: none;
+}
+.container  a:hover{
+    color: rgb(43, 226, 226);
+}
+h1{
+    color: skyblue;
+}
+.product img{
+    width: 200px;
+    height: 200px;
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+}
+.atcart{
+    display: flex;
+    justify-content: space-around;
+}
+.namecrt h1{
+    color: hotpink;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.atcart button{
+    background-color: blue;
+}
+.atcart img{
+    width: 50px;
+    height: 50px;
+}
+.liencart{
+    color: brown;
+    text-align: right;
+    background-color: cadetblue;
+}
+.liencart a:link{
+    text-decoration: none;
+}
+.fin{
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+  /*...................cart page..............*/
+  .products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+}
+  .products-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    justify-content: center;
+  }
+
+  .product-header{
+    /* width: 100px; */
+    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+  }
+  .product-title{
+    width: 45px;
+}
+.price{
+    width:15%;
+    /* border-bottom: 4px solid lightgray; */
+    display: flex;
+    align-items: center;
+}  
+
+ .quantity{
+  width: 30%;
+  /* border-bottom: 1px solid lightgray; */
+  display: flex;
+  align-items: center;
+}
+
+.total{
+  width:10%;
+  /* border-bottom: 1px solid rgb(77, 67, 67); */
+  display: flex;
+  align-items: center;
+}
+
+.product{
+    width: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+.phonetotaltitle{
+    width: 30%;
+
+} 
+.phonetotal{
+    width: 10%;
+
+}
